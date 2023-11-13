@@ -1,0 +1,114 @@
+/* =========== Página de registro ========== */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: row;
+  background: rgb(184, 216, 227);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(184, 216, 227, 1) 0%,
+    rgba(157, 176, 206, 1) 50%,
+    rgba(83, 88, 120, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(184, 216, 227, 1) 0%,
+    rgba(157, 176, 206, 1) 50%,
+    rgba(83, 88, 120, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(184, 216, 227, 1) 0%,
+    rgba(157, 176, 206, 1) 50%,
+    rgba(83, 88, 120, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b8d8e3",endColorstr="#535878",GradientType=1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 2em;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form-container form .titulo {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container form input {
+  border-color: #c8a8e9;
+  border-radius: 1em;
+  width: 280px;
+  height: 50px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.form-container form button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff;
+  background-color: #c8a8e9;
+  padding: 10px 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  border-radius: 50px;
+  transition: 178ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.form-container form button:hover {
+  transition: 178ms;
+  padding: 10px 35px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: gray;
+  border: solid 0px #c3c7f3;
+}

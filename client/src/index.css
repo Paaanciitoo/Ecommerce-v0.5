@@ -108,7 +108,7 @@
     rgba(39, 196, 44, 0.404) 100%
   );
   font-size: 20px;
-  border-radius: 5%;
+  border-radius: 2em;
   margin-left: 40%;
 }
 
@@ -153,4 +153,13 @@
 .cat-btn:hover {
   background-color: #434343;
   color: white;
+}
+
+/* -----------Registro------------- */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
 }

@@ -3,7 +3,7 @@ import Layout from "./../components/Layout/Layout";
 import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
 const Contact = () => {
   return (
-    <Layout title={"Contacto"}>
+    <Layout title={"Contacto - Tienda para mascotas"}>
       <div className="row contactus">
         <div className="contactcss col-md-4 text-white">
           <h1

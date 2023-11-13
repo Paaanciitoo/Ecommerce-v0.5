@@ -3,11 +3,11 @@ import Layout from "./../components/Layout/Layout";
 
 const About = () => {
   return (
-    <Layout title={"Acerca de"}>
+    <Layout title={"Acerca de - Tienda para mascotas"}>
       <div className="row about">
         <div className="aboutcss col-md-4 text-white">
           <h1 className="p-2 text-center">
-            Tienda online ¡Todo lo que necesitas, lo tenemos!
+            ¡Todo lo que necesitas, lo tenemos!
           </h1>
           <br />
           <p className="text-justify mt-2">
@@ -26,6 +26,13 @@ const About = () => {
       </div>
     </Layout>
   );
+};
+
+Layout.defaultProps = {
+  title: "TodoMascotas - Tienda para mascotas",
+  description: "Proyecto final",
+  keywords: "mern, react, node, mongodb",
+  author: "Mascotas team",
 };
 
 export default About;

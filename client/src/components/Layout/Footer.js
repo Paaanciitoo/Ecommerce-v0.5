@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <h1 className="text-center">
-        Todos los derechos reservados &copy; PancitoTeam
+        Todos los derechos reservados &copy; Mascotas team
       </h1>
       <p className="text-center mt-3">
         <Link to="/acerca_de">Acerca de</Link>|
