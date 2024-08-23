@@ -33,6 +33,7 @@ const Register = () => {
       toast.error("Algo salió mal");
     }
   };
+  
   return (
     <Layout title="Registro - Tienda">
       <div className="form-container">

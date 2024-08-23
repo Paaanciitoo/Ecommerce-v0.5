@@ -20,10 +20,10 @@ const AdminMenu = () => {
             Crear producto
           </NavLink>
           <NavLink
-            to="/panel/admin/usuarios"
+            to="/panel/admin/products"
             className="list-group-item list-group-item-action"
           >
-            Usuarios
+            Productos
           </NavLink>
         </div>
       </div>

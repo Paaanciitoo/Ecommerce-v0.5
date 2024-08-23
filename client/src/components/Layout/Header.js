@@ -2,16 +2,29 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useAuth } from "../../context/auth";
 import { toast } from "react-hot-toast";
+import SearchInput from "../Form/SearchInput";
+import { useCart } from "../../context/cart";
+import { Badge } from "antd";
 
 const Header = () => {
   const [auth, setAuth] = useAuth();
+  const [, setCart] = useCart();
+  const [cart] = useCart();
+  const isLinkDisabled = true;
+  const handleClick = (e) => {
+    if (isLinkDisabled) {
+      e.preventDefault(); // Previene la navegación si el enlace está deshabilitado
+    }
+  };
   const handleLogout = () => {
+    setCart([])
     setAuth({
       ...auth,
       user: null,
       token: "",
     });
     localStorage.removeItem("auth");
+    localStorage.setItem("cart", JSON.stringify([]));
     toast.success("Sesión cerrada correctamente");
   };
   return (
@@ -34,16 +47,13 @@ const Header = () => {
               🐾 Tienda para mascotas
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <SearchInput />
               <li className="nav-item">
                 <NavLink to="/" className="nav-link">
                   Inicio
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/categoria" className="nav-link">
-                  Categoría
-                </NavLink>
-              </li>
+
               {!auth.user ? (
                 <>
                   <li className="nav-item">
@@ -71,14 +81,13 @@ const Header = () => {
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li>
-                        <NavLink
-                          to={`/panel/${
-                            auth?.user?.role === 1 ? "admin" : "user"
-                          }`}
-                          className="dropdown-item"
+                      <NavLink
+                        to={`/panel/${auth?.user?.role === 1 ? "admin" : "user"}`}
+                        className={`dropdown-item ${isLinkDisabled ? 'disabled-link' : ''}`}
+                        onClick={handleClick}
                         >
-                          Panel de control
-                        </NavLink>
+                          Opción en desarrollo
+                      </NavLink>
                       </li>
                       <li>
                         <NavLink
@@ -93,10 +102,19 @@ const Header = () => {
                   </li>
                 </>
               )}
-              <li className="nav-item">
-                <NavLink to="/carrito" className="nav-link" href="#">
-                  Carrito de compras (0)
-                </NavLink>
+              <li
+                className="nav-item"
+                style={{
+                  marginTop: "5px",
+                  marginRight: "30px",
+                  fontFamily: "sans-serif",
+                }}
+              >
+                <Badge count={cart?.length} showZero>
+                  <NavLink to="/carrito" className="nav-link" href="#">
+                    Carrito de compras
+                  </NavLink>
+                </Badge>
               </li>
             </ul>
           </div>
