@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce de Productos para Mascotas</title>
 </head>
 <body>
     <h1>Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales</h1>
@@ -25,16 +24,15 @@
         Esto incluye la capacidad de agregar nuevos productos, actualizar la información existente y eliminar artículos que ya no están disponibles.
     </p>
 
-    <h2>Módulos de la Aplicación</h2>
-    <ul>
-        <li><strong>Módulo de Registro y Autenticación:</strong> Permite a los usuarios crear y proteger su cuenta con seguridad adicional.</li>
-        <li><strong>Módulo de Gestión de Productos (Admin):</strong> Los administradores pueden añadir, editar y eliminar productos en la tienda.</li>
-        <li><strong>Módulo de Filtrado de Productos:</strong> Los usuarios pueden buscar y filtrar productos según diferentes categorías y necesidades.</li>
-        <li><strong>Módulo de Carrito de Compras:</strong> Los usuarios pueden agregar productos a su carrito y gestionarlo antes de proceder con la compra.</li>
-        <li><strong>Módulo de Pasarela de Pagos:</strong> Utiliza PayPal Braintree para procesar pagos de manera segura y eficiente.</li>
-        <li><strong>Módulo de Seguridad con Pregunta Secreta:</strong> Refuerza la seguridad de la cuenta del usuario mediante preguntas de seguridad adicionales.</li>
-        <li><strong>Módulo de Gestión de Pedidos:</strong> Los usuarios pueden revisar y gestionar sus pedidos una vez completados.</li>
-    </ul>
+    ## Módulos de la Aplicación
+
+- **Módulo de Registro y Autenticación:** Permite a los usuarios crear y proteger su cuenta con seguridad adicional.
+- **Módulo de Gestión de Productos (Admin):** Los administradores pueden añadir, editar y eliminar productos en la tienda.
+- **Módulo de Filtrado de Productos:** Los usuarios pueden buscar y filtrar productos según diferentes categorías y necesidades.
+- **Módulo de Carrito de Compras:** Los usuarios pueden agregar productos a su carrito y gestionarlo antes de proceder con la compra.
+- **Módulo de Pasarela de Pagos:** Utiliza PayPal Braintree para procesar pagos de manera segura y eficiente.
+- **Módulo de Seguridad con Pregunta Secreta:** Refuerza la seguridad de la cuenta del usuario mediante preguntas de seguridad adicionales.
+- **Módulo de Gestión de Pedidos:** Los usuarios pueden revisar y gestionar sus pedidos una vez completados.
 </body>
 </html>
 
