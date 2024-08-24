@@ -23,14 +23,15 @@
         Además, la aplicación cuenta con un completo panel de administrador, desde el cual los dueños de las tiendas pueden gestionar su catálogo de productos. 
         Esto incluye la capacidad de agregar nuevos productos, actualizar la información existente y eliminar artículos que ya no están disponibles.
     </p>
-
+    
+<h1>Módulos con los que cuenta la página<h1/>
     - **Módulo de Registro y Autenticación:** Permite a los usuarios crear y proteger su cuenta con seguridad adicional.
-    - **Módulo de Gestión de Productos (Admin):** Los administradores pueden añadir, editar y eliminar productos en la tienda.
-    - **Módulo de Filtrado de Productos:** Los usuarios pueden buscar y filtrar productos según diferentes categorías y necesidades.
-    - **Módulo de Carrito de Compras:** Los usuarios pueden agregar productos a su carrito y gestionarlo antes de proceder con la compra.
-    - **Módulo de Pasarela de Pagos:** Utiliza PayPal Braintree para procesar pagos de manera segura y eficiente.
-    - **Módulo de Seguridad con Pregunta Secreta:** Refuerza la seguridad de la cuenta del usuario mediante preguntas de seguridad adicionales.
-    - **Módulo de Gestión de Pedidos:** Los usuarios pueden revisar y gestionar sus pedidos una vez completados.
+    - **Módulo de Gestión de productos (Admin):** Los administradores pueden añadir, editar y eliminar productos en la tienda.
+    - **Módulo de Filtrado de productos:** Los usuarios pueden buscar y filtrar productos según diferentes categorías y necesidades.
+    - **Módulo de Carrito de compras:** Los usuarios pueden agregar productos a su carrito y gestionarlo antes de proceder con la compra.
+    - **Módulo de Pasarela de pagos:** Utiliza PayPal Braintree para procesar pagos de manera segura y eficiente.
+    - **Módulo de Seguridad con pregunta secreta:** Refuerza la seguridad de la cuenta del usuario mediante preguntas de seguridad adicionales.
+    - **Módulo de Gestión de pedidos:** Los usuarios pueden revisar y gestionar sus pedidos una vez completados.
 </body>
 </html>
 
