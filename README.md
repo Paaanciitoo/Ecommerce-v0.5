@@ -24,7 +24,7 @@
         Esto incluye la capacidad de agregar nuevos productos, actualizar la información existente y eliminar artículos que ya no están disponibles.
     </p>
     
-<h1>Módulos con los que cuenta la página<h1/>
+<h1>Módulos con los que cuenta la página</h1>
     
 - **Módulo de Registro y Autenticación:** Permite a los usuarios crear y proteger su cuenta con seguridad adicional.
 - **Módulo de Gestión de productos (Admin):** Los administradores pueden añadir, editar y eliminar productos en la tienda.
