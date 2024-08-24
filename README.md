@@ -23,5 +23,8 @@ Además, la aplicación cuenta con un completo panel de administrador, desde el 
 - **Módulo de Seguridad con Pregunta Secreta:** Refuerza la seguridad de la cuenta del usuario mediante preguntas de seguridad adicionales.
 - **Módulo de Gestión de Pedidos:** Los usuarios pueden revisar y gestionar sus pedidos una vez completados.
 
-</html>
+### Imágenes de demostración
 
+<p align="center">
+  <img src="./client/public/images/1.1.png" alt="Favicon" width="400" height="380">
+</p>
