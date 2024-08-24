@@ -1,4 +1,4 @@
-# Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales
+# Ecommerce de Productos para Mascotas
 
 <p align="center">
   <img src="./client/public/favicon.ico" alt="Favicon" width="400" height="380">
