@@ -1,6 +1,6 @@
 # Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales
 
-<img src="./client/public/favicon.ico" alt="Favicon" width="32" height="32">
+<img style="text-align: center;" src="./client/public/favicon.ico" alt="Favicon" width="300" height="350">
 
 Esta aplicación web fue creada con el objetivo de ayudar a las tiendas de barrio que venden productos para mascotas a expandirse y llegar a más clientes. Con este ecommerce, buscamos ofrecer a los pequeños comerciantes una plataforma accesible donde puedan exhibir la diversidad de productos que tienen para ofrecer, facilitando que los dueños de mascotas encuentren todo lo que necesitan desde la comodidad de sus hogares.
 
