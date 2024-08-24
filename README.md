@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales</h1>
+    <h1 style="align-items: center; justify-content: center;">Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales</h1>
     <p>
         Esta aplicación web fue creada con el objetivo de ayudar a las tiendas de barrio que venden productos para mascotas a expandirse y llegar a más clientes. 
         Con este ecommerce, buscamos ofrecer a los pequeños comerciantes una plataforma accesible donde puedan exhibir la diversidad de productos que tienen para ofrecer, 
