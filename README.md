@@ -13,7 +13,7 @@ Para mejorar la seguridad, los usuarios tienen la opción de crear una cuenta y 
 
 Además, la aplicación cuenta con un completo panel de administrador, desde el cual los dueños de las tiendas pueden gestionar su catálogo de productos. Esto incluye la capacidad de agregar nuevos productos, actualizar la información existente y eliminar artículos que ya no están disponibles.
 
-## Módulos de la Aplicación
+<h1 align="center">Módulos de la Aplicación</h1>
 
 - **Módulo de Registro y Autenticación:** Permite a los usuarios crear y proteger su cuenta con seguridad adicional.
 - **Módulo de Gestión de Productos (Admin):** Los administradores pueden añadir, editar y eliminar productos en la tienda.
@@ -26,5 +26,5 @@ Además, la aplicación cuenta con un completo panel de administrador, desde el 
 ### Imágenes de demostración
 
 <p align="center">
-  <img src="./client/public/images/1.1.png" alt="Favicon" width="400" height="380">
+  <img src="./client/public/images/1.1.png" alt="Favicon" width="800" height="380">
 </p>
