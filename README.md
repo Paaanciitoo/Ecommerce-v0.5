@@ -1,7 +1,8 @@
 # Ecommerce de Productos para Mascotas - Apoyando a los Negocios Locales
 
-<img style="text-align: center;" src="./client/public/favicon.ico" alt="Favicon" width="300" height="350">
-
+<div style="text-align:>
+  <img center;" src="./client/public/favicon.ico" alt="Favicon" width="400" height="350">
+</div>
 Esta aplicación web fue creada con el objetivo de ayudar a las tiendas de barrio que venden productos para mascotas a expandirse y llegar a más clientes. Con este ecommerce, buscamos ofrecer a los pequeños comerciantes una plataforma accesible donde puedan exhibir la diversidad de productos que tienen para ofrecer, facilitando que los dueños de mascotas encuentren todo lo que necesitan desde la comodidad de sus hogares.
 
 La aplicación está construida utilizando el stack **MERN** (MongoDB, Express, React, Node.js), lo que permite una experiencia rápida y dinámica tanto para los usuarios como para los administradores. En la plataforma, los usuarios pueden explorar una variedad de productos, filtrarlos según sus necesidades, y agregar los artículos deseados a su carrito de compras de manera fácil y eficiente.
