@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <h1>Ecommerce de Productos para Mascotas</h1>
+  <h1 align="center">Ecommerce de Productos para Mascotas</h1>
   <img src="./client/public/favicon.ico" alt="Favicon" width="400" height="380">
 </p>
 
