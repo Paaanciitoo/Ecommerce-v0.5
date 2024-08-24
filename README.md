@@ -26,6 +26,6 @@ Además, la aplicación cuenta con un completo panel de administrador, desde el 
 <h1 align="center">Imágenes de demostración</h1>
 
 <p align="center">
-  <img src="./client/public/images/1.1.png" alt="Favicon" width="800" height="410">
+  <img src="./client/public/images/1.1.png" alt="Favicon" width="800" height="410"> <br/>
   <img src="./client/public/images/2.png" alt="Favicon" width="800" height="410">
 </p>
